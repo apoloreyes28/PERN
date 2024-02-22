@@ -17,7 +17,10 @@ const InputTodo = () => {
             });
             // con fetch() vamos a realizar una solicitud de obtención 
 
-            console.log(response);
+            // console.log(response);
+
+            window.location = "/";// esto refresca (actualiza) la pantalla una vez
+            // se envien los datos (respuesta) del formulario y muestra los cambios
         } catch (err) {
             console.error(err.message);
         }
